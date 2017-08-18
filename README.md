@@ -18,8 +18,10 @@ This was built with PHP, mySQL,HTML
 
 
 So first things first , update the config.php script with your database login info <i class="icon-file"></i>
+
+
 ```
-<?php
+
 <?php
  	//the dsn string that contains the database info and type
  	
@@ -41,7 +43,12 @@ So first things first , update the config.php script with your database login in
  	}catch(PDOException $e){
 
  		die(" There was an error connecting to the database because of ".$e." . Please contact the admin");
- 	}```
+ 	}
+?>
+```
+	
+	
+	
 After that, point your browser to install.php . This automatically creates the database ,table and fills it with dummy data .
 
 > **!! IMPORTANT !!!:**
