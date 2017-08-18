@@ -52,6 +52,6 @@ So first things first , update the config.php script with your database login in
 After that, point your browser to install.php . This automatically creates the database ,table and fills it with dummy data .
 
 > **!! IMPORTANT !!!:**
->  Please remember to edit the config.php script . The intall.php script will print out an appropriate error message if you forget to do so, but please do it .
+>  Please remember to edit the config.php script . The install.php script will print out an appropriate error message if you forget to do so, but please do it .
 
 After that , start your web server and navigate to the index.php file 
